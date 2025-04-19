@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token = '7886214781:AAFwxvMLTz88QpmiZy5EMKxig4O4tO_0SxE';
+const token = '7886214781:AAH0PBuylmrBen4hLR6Q66NVtCyCCFo_vog';
 const TARGET_CHAT_ID = '-4632010105';
 
 const express = require('express');
