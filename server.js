@@ -34,7 +34,7 @@ async function handleUserMessage(msg) {
 
   // Игнорируем команды
   if (text.startsWith('/')) {
-    await bot.sendMessage(chatId, 'ℹ️ Сообщения-команды не пересылаются.');
+    await bot.sendMessage(chatId, 'ℹ️ Сообщения-команды не направляются.');
     return;
   }
 
@@ -48,10 +48,10 @@ async function handleUserMessage(msg) {
       originalMessageId: messageId
     });
 
-    await bot.sendMessage(chatId, '✅ Ваше сообщение переслано!');
+    await bot.sendMessage(chatId, '✅ Ваше сообщение направлено!');
   } catch (err) {
     console.error('Ошибка пересылки:', err);
-    await bot.sendMessage(chatId, '❌ Не удалось переслать сообщение.');
+    await bot.sendMessage(chatId, '❌ Не удалось направить сообщение.');
   }
 }
 
