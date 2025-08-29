@@ -4,7 +4,7 @@ const TARGET_CHAT_ID = '-4753301057'; //'-4632010105';
 
 const express = require('express');
 const app = express();
-app.get('/', (req, res) => res.send('Bot is alive!'));
+app.get('/', (req, res) => res.send('Bot is alive2!'));
 app.listen(3000, () => console.log('Server started'));
 
 // Хранилище для связи сообщений
