@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const token = '7886214781:AAEtRo_p9BaKBjEhQAmsDkfAf0Qurl2VR44';
-const TARGET_CHAT_ID = '-1003014083029'; //'-4632010105';
+const TARGET_CHAT_ID = '-1003014083029';
 
 //'-4753301057' Основной чат АХО '-1003014083029'
 //'-4632010105' Тестовый чат '-1003095384146'
