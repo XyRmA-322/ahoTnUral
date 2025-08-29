@@ -1,9 +1,9 @@
 const TelegramBot = require('node-telegram-bot-api');
 const token = '7886214781:AAEtRo_p9BaKBjEhQAmsDkfAf0Qurl2VR44';
-const TARGET_CHAT_ID = '-4632010105'; //'-4632010105';
+const TARGET_CHAT_ID = '-1003095384146'; //'-4632010105';
 
 //'-4753301057' Основной чат АХО
-//'-4632010105' Тестовый чат 
+//'-4632010105' Тестовый чат '-1003095384146'
 const express = require('express');
 const app = express();
 app.get('/', (req, res) => res.send('Bot is alive2!'));
